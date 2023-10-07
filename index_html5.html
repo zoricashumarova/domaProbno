@@ -5,53 +5,73 @@
     <meta charset="utf-8" />
     <meta name="keyboards" content="" />
     <meta name="description" content="" />
+    <link rel="stylesheet" href="./index_css.css" />
   </head>
   <body>
     <header>
-      <h1>Naslov br.1</h1>
-      <nav>
-        <ul>
-          <li><a href="./home.html">Home</a></li>
-          <li><a href="./about.html">About</a></li>
+      <h1 class="title">Main Title</h1>
+      <nav id="list" class="main">
+        <ul class="horizontal">
+          <li><a href="./home.html" class="active">Home</a></li>
+          <li><a href="./about.html" class="active">About</a></li>
+          <li><a href="./about.html" class="active">Contact</a></li>
         </ul>
       </nav>
     </header>
     <main>
-      <section>
+      <section class="sectionOne">
         <div>Section 1</div>
         <form action="" method="" enctype="text/plain">
-          <label for="firstname">Name</label>
-          <input id="firstname" name="firstName" type="text" />
-          <label>Lastname</label>
-          <input name="lastName" type="text" />
-          <textarea name="content" rows="4"></textarea>
-          <select name="car">
+          <div class="part">
+            <label for="firstname">Name</label>
+            <input id="firstname" name="firstName" type="text" />
+          </div>
+
+          <div class="part">
+            <label>Lastname</label>
+            <input name="lastName" type="text" />
+          </div>
+
+          <div class="part">
+            <label>Input some text:</label>
+            <textarea name="content" rows="4"></textarea>
+          </div>
+
+          <select name="car" class="part">
             <option value="1">one</option>
             <option value="2">two</option>
           </select>
-          <input type="submit" value="Send" />
+          <div class="part">
+            <input type="submit" value="Send" />
+          </div>
         </form>
       </section>
-      <section>
+      <section class="sectionTwo">
         <div>Section 2</div>
-      </section>
-      <aside>
-        <h2>Articles</h2>
-        <article>
-          <h3>Article 1</h3>
-          <p>Article 1 content</p>
-        </article>
 
-        <article>
-          <h2>Article 2</h2>
-          <p>Article 2 content</p>
-        </article>
-      </aside>
+        <aside>
+          <h2>Articles</h2>
+          <article>
+            <h3>Article 1</h3>
+            <p>Article 1 content</p>
+          </article>
+
+          <article>
+            <h2>Article 2</h2>
+            <p>Article 2 content</p>
+          </article>
+        </aside>
+      </section>
     </main>
+    <section id="myId" class="class_3">
+      <p class="class_1 class_2 class_4">
+        Let's play with the color of this parapraph
+      </p>
+    </section>
   </body>
   <footer>
     <address><a href="mailto:contact@gmail.com">Mail us!</a></address>
     <address><a href="tel:1234567890">Call us!</a></address>
-    <p>&copy; My project 2023</p>
+    <p id="footer_paragraph">&copy; My project 2023</p>
   </footer>
 </html>

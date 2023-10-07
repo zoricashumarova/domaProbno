@@ -1,0 +1,88 @@
+p {
+  font-size: 12px;
+  font-weight: bold;
+  color: green;
+}
+
+.title {
+  font-size: 25px;
+  font-weight: bold;
+  color: orangered;
+}
+
+#footer_paragraph {
+  color: magenta;
+}
+
+#list_item {
+  color: aquamarine;
+}
+
+header {
+  /* width: 1000px;
+  margin: 0 auto; 
+  text-align: center;
+  background-color: bisque;
+  position: relative;
+  width: 100%;
+  border-radius: 15px;
+  /* top: 20px; */
+}
+
+.active {
+  /* width: 1000px; */
+  /* margin: 0 auto; */
+}
+
+.sectionOne {
+  width: 500px;
+  margin: 0 auto;
+  border: 5px solid orange;
+  text-align: center;
+  border-radius: 15px;
+  background-color: beige;
+  margin-bottom: 10px;
+}
+
+.part {
+  margin-bottom: 5px;
+}
+
+.part input:hover {
+  background-color: green;
+}
+
+.sectionTwo {
+  width: 700px;
+  margin: 0 auto;
+  border: 5px solid orange;
+  text-align: center;
+  border-radius: 15px;
+  background-color: beige;
+}
+
+/* !!!!!!!!!!!!!!! - ODKOMENTIRAJ */
+/* footer {
+  background-color: beige;
+  border: 5px solid orange;
+  border-radius: 15px;
+  width: 900px;
+  margin: 0 auto;
+  text-align: center;
+} */
+
+.class_3 {
+  text-align: right;
+}
+
+/* .scetionOne se prekrsuvase nad 500px, zatoa ja namaliv na width: 400px; */
+@media (max-width: 500px) {
+  .sectionOne,
+  .sectionTwo {
+    width: 400px;
+  }
+
+  footer {
+    width: 200px;
+  }
+}
